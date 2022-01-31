@@ -124,6 +124,7 @@
    $('.flexslider').flexslider({
       namespace: "flex-",
       controlsContainer: ".flex-container",
+      pauseOnAction: true,
       animation: 'slide',
       controlNav: true,
       directionNav: false,
